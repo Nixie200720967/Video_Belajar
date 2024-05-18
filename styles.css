@@ -1,0 +1,800 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffdf3;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  font-family: Arial, sans-serif;
+  background-color: #fffdf3;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  /* background-color: #f8f9fa; */
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 80px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  width: 193.03px;
+height: 30.08px;
+top: 13px;
+left: 22px;
+gap: 0px;
+opacity: 0px;
+
+}
+.logo img {
+  height: 40px;
+}
+.register-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+#container-header{
+
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+.profile-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.profile-button:hover {
+  background-color: #0056b3;
+}
+.user-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* CSS untuk header */
+header {
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+
+  margin-left: -10px;
+  margin-right: -10px;
+  text-align: center;
+}
+
+/* CSS untuk logo */
+.logo {
+  
+  height: 100%;
+  margin-right: 20px;
+  
+}
+
+#poster {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  /* Frame 1000003861 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 82px 140px 64px; */
+
+
+  width: 1200px;
+  height: 400px;
+  /* padding: 82px 140px 64px 140px; */
+  gap: 24px;
+  border-radius: 10px;
+  opacity: 0px;
+
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/informationbg.jpeg);
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+
+}
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-form {
+  width: 450px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-form p {
+  text-align: center;
+  margin-top: -15px;
+  font-size: small;
+  color: dimgray;
+}
+
+.fontyuk {
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.form-group {
+  margin-bottom: 60px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-groupnohp {
+  margin-bottom: 1px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+
+.form-group input {
+  /* width: 100%; */
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #02ed5c;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  height: 48px;
+}
+
+button[type="regis"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #E2FCD9CC;
+  color: #3ECF4C;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  height: 48px;
+}
+
+button[type="masuk"] {
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #F1F1F1;
+  color: #4A505C;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #F1F1F1;
+  color: #4A505C;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+  height: 48px;
+}
+
+/* button[type="submit"]:hover {
+  background-color: #3ECF4C;
+}
+
+button[type="register"]:hover {
+  background-color: #E2FCD9CC;
+} */
+
+.hr-lines:before {
+  content: " ";
+  height: 2px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #F1F1F1;
+}
+
+.hr-lines {
+  position: relative;
+}
+
+.hr-lines {
+  position: relative;
+  /*  new lines  */
+  max-width: 500px;
+
+  text-align: center;
+}
+
+.hr-lines-register {
+  position: relative;
+}
+
+.hr-lines-register {
+  position: relative;
+  /*  new lines  */
+  max-width: 500px;
+
+  text-align: center;
+}
+
+.hr-lines:after {
+  content: " ";
+  height: 2px;
+  width: 200px;
+  background: #F1F1F1;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.hr-lines-register:after {
+  content: " ";
+  height: 2px;
+  width: 170px;
+  background: #F1F1F1;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.hr-lines-register:before {
+  content: " ";
+  height: 2px;
+  width: 170px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #F1F1F1;
+}
+
+.logogoogle {
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+}
+
+
+#username {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.username-input {
+  position: relative;
+  display: inline-block;
+  /* background-color: #02ed5c; */
+}
+
+#password {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.password-input {
+  position: relative;
+  display: inline-block;
+  /* background-color: #02ed5c; */
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+.toggle-password:hover {
+  color: #333;
+}
+
+.container {
+  background-color: #fffdf3;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  min-width: 100vw !important;
+  max-width: 100vw !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+
+}
+
+#form-pendaftaran {
+  margin-top: 260px;
+}
+
+button>img,
+button>span {
+  vertical-align: middle;
+}
+
+#container-poster {
+  position: relative;
+  text-align: center;
+}
+
+.centered-text {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Revolusi Pembelajaran: Temukan Ilmu Baru melalui Platform Video Interaktif! */
+
+  width: 920px;
+  height: 159px;
+
+  /* Heading/Heading 1
+
+Judul Hero Banner
+*/
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 110%;
+  /* or 53px */
+  text-align: center;
+
+  /* Text (Light)/Primary */
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  width: 920px;
+height: 159px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+
+.desc1{
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52.8px;
+  text-align: center;
+}
+
+.desc2{
+
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 22.4px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+
+  width: 920px;
+  height: 44px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+
+#intro{
+  width: 369px;
+  height: 42px;
+  padding: 10px 26px 10px 26px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+#container-content{
+  width: 1200px;
+  height: 1525px;
+  gap: 32px;
+  opacity: 0px;
+  margin-left: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#container-contentitems{
+  width: 1200px;
+  height: 1525px;
+  gap: 32px;
+  opacity: 0px;
+  margin-left: 310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#informasi1{
+font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 35.2px;
+text-align: left;
+
+}
+
+#informasi2 {
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 22.4px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #333333AD;
+
+}
+
+ /* Style the tab */
+ .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  /* background-color: #f1f1f1; */
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+} 
+
+#content1{
+ width: 362px;
+  /* height: 390px; */
+  padding: 20px 0px 0px 0px;
+  gap: 16px;
+  border-radius: 10px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  justify-content: space-between;
+  display: flex
+
+}
+
+
+.listcontent {
+  
+  height: 100%;
+  margin-right: 20px;
+  margin: auto;
+  /* Rectangle 22957 */
+
+width: 362px;
+height: 193px;
+
+/* Cover/03 */
+/* background: url(.jpg), url(Checker.png); */
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.tablinks{
+  /* Tabs */
+
+/* Auto layout */
+
+
+}
+
+/* .mentor-name{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  vertical-align: top;
+  color: #ddd;  
+} */
+
+.mentor-name{
+  margin: 0; margin-top: 2px;
+}
+
+
+
+
+
+.mentor-position{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  vertical-align: bottom;
+  color: #ddd;}
+
+  .mentor-place{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    vertical-align: bottom;
+    color: #ddd;}
+
+    .mentor-palcement{
+      font-family: DM Sans;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22.4px;
+      letter-spacing: 0.20000000298023224px;
+      text-align: left;
+      vertical-align: bottom;
+      color: #ddd;
+  
+}
+
+
+/* .info1{
+  width: 344px;
+  height: 22px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #222325;
+  flex: none;
+    flex-grow: 0;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+} */
+
+#Big4{
+  color: #222325;
+
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.6px;
+text-align: left;
+
+}
+
+#info2{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 22.4px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #222325;
+text-align: justify;
+
+}
+
+
+.jennaortega{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.text1{
+  margin: 0;padding: 0;
+  /*! height: 12px; */
+  margin-top: -10px;
+}
+
+
+/* Star - Bintang */
+
+#full-star{
+
+
+width: 15px;
+height: 14.25px;
+top: 1.5px;
+left: 1.5px;
+gap: 0px;
+opacity: 0px;
+
+color:#FCE91B;
+}
+
+#half-star{
+
+  
+  width: 15px;
+  height: 14.25px;
+  top: 1.5px;
+  left: 1.5px;
+  gap: 0px;
+  /* opacity: 0px; */
+  
+  color:#FCE91B;
+  margin-left: -20;
+  z-index: 3;
+  }
+
+  .fa-half-tstar{
+    /* margin-left: -20px; */
+  }
+
+  #full-star-behind{
+
+  
+    width: 15px;
+    height: 14.25px;
+    top: 1.5px;
+    left: 1.5px;
+    gap: 0px;
+    opacity: 0px;
+    
+    color:#0a0901;
+  
+    z-index: -1;
+    }
+
+  #blank-star{
+
+  
+    width: 15px;
+    height: 14.25px;
+    top: 1.5px;
+    left: 1.5px;
+    gap: 0px;
+    opacity: 0px;
+    
+    color:#3A35411F;
+    }
+
+
+    #rating{
+      font-family: DM Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 19.6px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #333333AD;
+text-decoration: underline;
+
+    }
+
+  #price{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  color: #3ECF4C;
+  text-align: right;
+  text-align-last: right;
+  justify-content: right;
+
+  }
+  
+    .container-footer-content{
+      width: 310px;
+    }
+
+    .contaier-price{
+      margin-top: -25px;
+  width: 215px;
+  margin-left: 10px;
+  padding: 0px 0px 0px 0px;
+  margin-left: 104px;
+    }
+
+
+  .img1{
+    display: flex;
+    max-height: 40px;
+  }
+
+  .content-1-2{
+
+  }
