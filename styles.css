@@ -20,7 +20,7 @@ html {
 .header1 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   padding: 10px 20px;
   /* background-color: #f8f9fa; */
   background: #FFFFFF;
@@ -48,6 +48,10 @@ html {
 .logo img {
   /* height: 40px; */
   margin-left: 22px;
+}
+
+.Logoberanda{
+
 }
 
 .register-button {
@@ -149,7 +153,7 @@ header {
 
   margin-left: -10px;
   margin-right: -10px;
-  text-align: center;
+  text-align: left;
 }
 
 /* CSS untuk logo */
@@ -445,6 +449,10 @@ button[type="register"]:hover {
   box-sizing: border-box;
 }
 
+.passinpt{
+  height: 48px;
+}
+
 .password-input {
   position: relative;
   display: inline-block;
@@ -492,7 +500,7 @@ button>span {
 
 .container-poster-footer {
   position: relative;
-  text-align: center;
+  text-align: left;
   height: 400px;
 }
 
@@ -959,13 +967,13 @@ Judul Hero Banner
 
 .footer-info{
   width: 1440px;
-height: 427px;
-padding: 60px 120px 60px 120px;
-gap: 20px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-
+  height: 427px;
+  padding: 60px 120px 60px 120px;
+  gap: 20px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
   color: #FFFFFF;
+  background-color: #FFFFFF;;
 }
 
 .footer-content{
@@ -1021,6 +1029,7 @@ opacity: 0px;
 
 }
 
+
 .contaier-price {
   margin-top: -25px;
   width: 215px;
@@ -1035,4 +1044,118 @@ opacity: 0px;
   max-height: 40px;
 }
 
-.content-1-2 {}
+.container-footer-info{
+  width: 1200px;
+height: 199px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+background-color: #FFFFFF;
+margin-left: auto;
+  margin-right: auto;
+
+}
+
+.footer-info1{
+  width: 352px;
+  height: 190px;
+  gap: 16px;
+  opacity: 0px;
+  /* background-color: #0056b3; */
+
+  
+  
+}
+
+.footer-info2{
+  width: 150px;
+height: 199px;
+gap: 15px;
+opacity: 0px;
+background-color: #050e18;
+
+}
+
+.footer-info3{
+  width: 148px;
+height: 199px;
+gap: 15px;
+opacity: 0px;
+background-color: #3dbb50;
+}
+
+.footer-info4{
+  width: 91px;
+  height: 94px;
+  gap: 15px;
+  opacity: 0px;
+  background-color: #8a155d;
+  
+  
+}
+
+.logo-footer{
+  margin-left: -23px;
+}
+
+.gali{
+  width: 352px;
+height: 50px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.galiinfo{
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #3A3541DE;
+}
+
+.jl{
+  width: 352px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+
+.jlinfo{
+
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #222325;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+.phone62{
+  width: 352px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  color: #222325;
+}
+
+.phone62info{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  
+}
