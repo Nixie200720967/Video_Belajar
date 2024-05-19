@@ -53,9 +53,7 @@ function toggleDivs(value) {
 // });
 
 
-    document.getElementById("regis").onclick = function () {
-        location.href = "pendaftaran.html";
-    };
+ 
 
 window.onload = function() {
   hideTabs();
@@ -103,3 +101,13 @@ window.onload = function() {
                 }
             });
   }
+
+  document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
+    e.preventDefault();
+    document.querySelector('.subscription').classList.add('done');
+  });
+
+  
+     document.getElementById("regis").onclick = function () {
+        location.href = "pendaftaran.html";
+    };

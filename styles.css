@@ -34,20 +34,22 @@ html {
   display: flex;
   align-items: center;
   width: 193.03px;
-height: 30.08px;
-top: 13px;
-left: 22px;
-gap: 0px;
-opacity: 0px;
+  height: 30.08px;
+  top: 13px;
+  left: 22px;
+  gap: 0px;
+  opacity: 0px;
 
 
 
 
 }
+
 .logo img {
   /* height: 40px; */
   margin-left: 22px;
 }
+
 .register-button {
   padding: 10px 20px;
   background-color: #007bff;
@@ -58,6 +60,7 @@ opacity: 0px;
   font-size: 16px;
   cursor: pointer;
 }
+
 .register-button:hover {
   background-color: #0056b3;
 }
@@ -69,42 +72,42 @@ opacity: 0px;
   align-items: center;
 }
 
-.kategory{
+.kategory {
 
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 500;
-line-height: 22.4px;
-letter-spacing: 0.20000000298023224px;
-text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: right;
   margin-top: -40px;
   text-decoration: none;
   margin-right: 267px;
 
 }
 
-.a-kategori{
+.a-kategori {
   text-decoration: none;
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 500;
-line-height: 22.4px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-color: #333333AD;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #333333AD;
 
 }
 
-.logo-kategori{
-  width: 1405px; 
-height: 56px;
-gap: 0px;
-justify-content: space-between;
-opacity: 0px;
+.logo-kategori {
+  width: 1405px;
+  height: 56px;
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
 
 }
 
-.profile-pict{
+.profile-pict {
   width: 1200px;
   text-align: right;
   margin-top: -35px;
@@ -121,16 +124,18 @@ opacity: 0px;
   cursor: pointer;
   margin-left: 10px;
 }
+
 .profile-button:hover {
   background-color: #0056b3;
 }
+
 .user-image {
   width: 44px;
   height: 44px;
   gap: 0px;
   border-radius: 10px 0px 0px 0px;
   opacity: 0px;
-  
+
 }
 
 
@@ -149,10 +154,10 @@ header {
 
 /* CSS untuk logo */
 .logo {
-  
+
   height: 100%;
   margin-right: 20px;
-  
+
 }
 
 #poster {
@@ -190,6 +195,44 @@ header {
 
 
 }
+
+#poster-footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  /* Frame 1000003861 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 82px 140px 64px; */
+
+
+  width: 1200px;
+  height: 400px;
+  /* padding: 82px 140px 64px 140px; */
+  gap: 24px;
+  border-radius: 10px;
+  opacity: 0px;
+
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/informationbg.jpeg);
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+
+}
+
+
 
 
 
@@ -444,6 +487,13 @@ button>span {
 #container-poster {
   position: relative;
   text-align: center;
+  height: 400px;
+}
+
+.container-poster-footer {
+  position: relative;
+  text-align: center;
+  height: 400px;
 }
 
 .centered-text {
@@ -480,14 +530,51 @@ Judul Hero Banner
   flex-grow: 0;
 
   width: 920px;
-height: 159px;
-gap: 0px;
-opacity: 0px;
+  height: 159px;
+  gap: 0px;
+  opacity: 0px;
 
 
 }
 
-.desc1{
+.newsletter {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 920px;
+  height: 159px;
+
+  /* Heading/Heading 1
+
+Judul Hero Banner
+*/
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 110%;
+  /* or 53px */
+  text-align: center;
+
+  /* Text (Light)/Primary */
+  color: #0f0101;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  width: 920px;
+  height: 159px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.desc1 {
   font-family: Poppins;
   font-size: 48px;
   font-weight: 700;
@@ -495,23 +582,23 @@ opacity: 0px;
   text-align: center;
 }
 
-.desc2{
+.desc2 {
 
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 500;
-line-height: 22.4px;
-letter-spacing: 0.20000000298023224px;
-text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
 
   width: 920px;
   height: 44px;
   gap: 0px;
   opacity: 0px;
-  
+
 }
 
-#intro{
+#intro {
   width: 369px;
   height: 42px;
   padding: 10px 26px 10px 26px;
@@ -519,7 +606,7 @@ text-align: center;
   opacity: 0px;
 }
 
-#container-content{
+#container-content {
   width: 1200px;
   height: 1525px;
   gap: 32px;
@@ -527,10 +614,10 @@ text-align: center;
   margin-left: 310px;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
-#container-contentitems{
+#container-contentitems {
   width: 1200px;
   height: 1525px;
   gap: 32px;
@@ -540,28 +627,28 @@ text-align: center;
   margin-right: auto;
 }
 
-#informasi1{
-font-family: Poppins;
-font-size: 32px;
-font-weight: 600;
-line-height: 35.2px;
-text-align: left;
+#informasi1 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 35.2px;
+  text-align: left;
 
 }
 
 #informasi2 {
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 500;
-line-height: 22.4px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-color: #333333AD;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #333333AD;
 
 }
 
- /* Style the tab */
- .tab {
+/* Style the tab */
+.tab {
   overflow: hidden;
   border: 1px solid #ccc;
   /* background-color: #f1f1f1; */
@@ -594,10 +681,10 @@ color: #333333AD;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
-} 
+}
 
-#content1{
- width: 362px;
+#content1 {
+  width: 362px;
   /* height: 390px; */
   padding: 20px 0px 0px 0px;
   gap: 16px;
@@ -606,35 +693,34 @@ color: #333333AD;
   opacity: 0px;
   justify-content: space-between;
   display: flex
-
 }
 
 
 .listcontent {
-  
+
   height: 100%;
   margin-right: 20px;
   margin: auto;
   /* Rectangle 22957 */
 
-width: 362px;
-height: 193px;
+  width: 362px;
+  height: 193px;
 
-/* Cover/03 */
-/* background: url(.jpg), url(Checker.png); */
-border-radius: 10px;
+  /* Cover/03 */
+  /* background: url(.jpg), url(Checker.png); */
+  border-radius: 10px;
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 
 }
 
-.tablinks{
+.tablinks {
   /* Tabs */
 
-/* Auto layout */
+  /* Auto layout */
 
 
 }
@@ -650,15 +736,16 @@ flex-grow: 0;
   color: #ddd;  
 } */
 
-.mentor-name{
-  margin: 0; margin-top: 2px;
+.mentor-name {
+  margin: 0;
+  margin-top: 2px;
 }
 
 
 
 
 
-.mentor-position{
+.mentor-position {
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 500;
@@ -666,28 +753,30 @@ flex-grow: 0;
   letter-spacing: 0.20000000298023224px;
   text-align: left;
   vertical-align: bottom;
-  color: #ddd;}
+  color: #ddd;
+}
 
-  .mentor-place{
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 22.4px;
-    letter-spacing: 0.20000000298023224px;
-    text-align: left;
-    vertical-align: bottom;
-    color: #ddd;}
+.mentor-place {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  vertical-align: bottom;
+  color: #ddd;
+}
 
-    .mentor-palcement{
-      font-family: DM Sans;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 22.4px;
-      letter-spacing: 0.20000000298023224px;
-      text-align: left;
-      vertical-align: bottom;
-      color: #ddd;
-  
+.mentor-palcement {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  vertical-align: bottom;
+  color: #ddd;
+
 }
 
 
@@ -707,38 +796,39 @@ flex-grow: 0;
   flex-grow: 0;
 } */
 
-#Big4{
+#Big4 {
   color: #222325;
 
-font-family: Poppins;
-font-size: 18px;
-font-weight: 600;
-line-height: 21.6px;
-text-align: left;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: left;
 
 }
 
-#info2{
+#info2 {
   font-family: DM Sans;
-font-size: 16px;
-font-weight: 500;
-line-height: 22.4px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-color: #222325;
-text-align: justify;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #222325;
+  text-align: justify;
 
 }
 
 
-.jennaortega{
+.jennaortega {
   width: 40px;
   height: 40px;
   margin-right: 10px;
 }
 
-.text1{
-  margin: 0;padding: 0;
+.text1 {
+  margin: 0;
+  padding: 0;
   /*! height: 12px; */
   margin-top: -10px;
 }
@@ -746,80 +836,151 @@ text-align: justify;
 
 /* Star - Bintang */
 
-#full-star{
+#full-star {
 
 
-width: 15px;
-height: 14.25px;
-top: 1.5px;
-left: 1.5px;
-gap: 0px;
-opacity: 0px;
+  width: 15px;
+  height: 14.25px;
+  top: 1.5px;
+  left: 1.5px;
+  gap: 0px;
+  opacity: 0px;
 
-color:#FCE91B;
+  color: #FCE91B;
 }
 
-#half-star{
+#half-star {
 
-  
+
   width: 15px;
   height: 14.25px;
   top: 1.5px;
   left: 1.5px;
   gap: 0px;
   /* opacity: 0px; */
-  
-  color:#FCE91B;
+
+  color: #FCE91B;
   margin-left: -20;
   z-index: 3;
-  }
+}
 
-  .fa-half-tstar{
-    /* margin-left: -20px; */
-  }
+.fa-half-tstar {
+  /* margin-left: -20px; */
+}
 
-  #full-star-behind{
-
-  
-    width: 15px;
-    height: 14.25px;
-    top: 1.5px;
-    left: 1.5px;
-    gap: 0px;
-    opacity: 0px;
-    
-    color:#0a0901;
-  
-    z-index: -1;
-    }
-
-  #blank-star{
-
-  
-    width: 15px;
-    height: 14.25px;
-    top: 1.5px;
-    left: 1.5px;
-    gap: 0px;
-    opacity: 0px;
-    
-    color:#3A35411F;
-    }
+#full-star-behind {
 
 
-    #rating{
-      font-family: DM Sans;
-font-size: 14px;
-font-weight: 500;
-line-height: 19.6px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-color: #333333AD;
-text-decoration: underline;
+  width: 15px;
+  height: 14.25px;
+  top: 1.5px;
+  left: 1.5px;
+  gap: 0px;
+  opacity: 0px;
 
-    }
+  color: #0a0901;
 
-  #price{
+  z-index: -1;
+}
+
+
+.newsletter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #C1C2C4;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.2px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.belajar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 35.2px;
+  margin-top: 24px;
+}
+
+
+.daftarkan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#F4F5FA;
+
+  text-align: center;
+
+  margin-top: 75px;
+
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.20000000298023224px;
+
+}
+
+
+.form-subscribe{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 175px;
+}
+
+
+
+.footer-content{
+  width: Hug 525px;
+height: Hug 216px;
+gap: 40px;
+opacity: 0px;
+
+}
+
+#blank-star {
+
+
+  width: 15px;
+  height: 14.25px;
+  top: 1.5px;
+  left: 1.5px;
+  gap: 0px;
+  opacity: 0px;
+
+  color: #3A35411F;
+}
+
+
+#rating {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #333333AD;
+  text-decoration: underline;
+
+}
+
+#price {
   font-family: Poppins;
   font-size: 24px;
   font-weight: 600;
@@ -829,26 +990,27 @@ text-decoration: underline;
   text-align-last: right;
   justify-content: right;
 
-  }
-  
-    .container-footer-content{
-      width: 310px;
-    }
+}
 
-    .contaier-price{
-      margin-top: -25px;
+.container-footer {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.contaier-price {
+  margin-top: -25px;
   width: 215px;
   margin-left: 10px;
   padding: 0px 0px 0px 0px;
   margin-left: 104px;
-    }
+}
 
 
-  .img1{
-    display: flex;
-    max-height: 40px;
-  }
+.img1 {
+  display: flex;
+  max-height: 40px;
+}
 
-  .content-1-2{
-
-  }
+.content-1-2 {}
