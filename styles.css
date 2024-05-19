@@ -4,6 +4,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+
 }
 
 html {
@@ -14,7 +17,7 @@ html {
   height: 100%;
 }
 
-.header {
+.header1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +26,10 @@ html {
   background: #FFFFFF;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   height: 80px;
+  width: auto;
 }
+
+
 .logo {
   display: flex;
   align-items: center;
@@ -34,9 +40,13 @@ left: 22px;
 gap: 0px;
 opacity: 0px;
 
+
+
+
 }
 .logo img {
-  height: 40px;
+  /* height: 40px; */
+  margin-left: 22px;
 }
 .register-button {
   padding: 10px 20px;
@@ -52,14 +62,54 @@ opacity: 0px;
   background-color: #0056b3;
 }
 
-#container-header{
 
-}
 
 .profile-container {
   display: flex;
   align-items: center;
 }
+
+.kategory{
+
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 22.4px;
+letter-spacing: 0.20000000298023224px;
+text-align: right;
+  margin-top: -40px;
+  text-decoration: none;
+  margin-right: 267px;
+
+}
+
+.a-kategori{
+  text-decoration: none;
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 22.4px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #333333AD;
+
+}
+
+.logo-kategori{
+  width: 1405px; 
+height: 56px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+
+}
+
+.profile-pict{
+  width: 1200px;
+  text-align: right;
+  margin-top: -35px;
+}
+
 .profile-button {
   padding: 10px 20px;
   background-color: #007bff;
@@ -75,10 +125,14 @@ opacity: 0px;
   background-color: #0056b3;
 }
 .user-image {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  
 }
+
 
 /* CSS untuk header */
 header {

@@ -53,9 +53,9 @@ function toggleDivs(value) {
 // });
 
 
-//     document.getElementById("regis").onclick = function () {
-//         location.href = "pendaftaran.html";
-//     };
+    document.getElementById("regis").onclick = function () {
+        location.href = "pendaftaran.html";
+    };
 
 window.onload = function() {
   hideTabs();
