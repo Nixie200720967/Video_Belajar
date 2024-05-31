@@ -1,3 +1,36 @@
+h2{
+    font-family: Poppins; 
+    font-size:32px;
+}
+
+.font-yuk{
+    font-family: DM Sans;
+} 
+
+.email{
+    text-align: left
+}
+
+.password{
+    text-align: left;
+}
+
+.logogoogle{
+    vertical-align:middle;
+}
+
+
+.hr-lines{
+    color: #4A505C; 
+    font-family: DM Sans; 
+    font-size:16px;
+}
+
+
+.btn-masuk{
+    font-family: DM Sans;
+}
+
 .input-username{
     height: 48px;
 }

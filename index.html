@@ -26,11 +26,11 @@
 
 <div class="container">
     <form class="login-form">
-        <h2 style="font-family: Poppins; font-size:32px">Masuk ke akun</h2>
-        <p class="fontyuk" style="font-family: DM Sans;">Yuk, lanjutin belajamu di videobelajar.</p>
+        <h2>Masuk ke akun</h2>
+        <p class="font-yuk">Yuk, lanjutin belajamu di videobelajar.</p>
         
         <div class="form-group" >
-            <label for="username" style="text-align: left;">Email <span class="starmandatory">*</span></label>
+            <label class="email" for="username">Email <span class="starmandatory">*</span></label>
             
             <div class="username-input">
                 <input class="input-username"  id="password" name="username" placeholder="username" type="username" required>
@@ -39,7 +39,7 @@
         </div>
 
         <div class="form-group" >
-            <label for="password" style="text-align: left;">Kata Sandi <span class="starmandatory">*</span></label>
+            <label class="password" for="password">Kata Sandi <span class="starmandatory">*</span></label>
             
             <div class="password-input">
                 <input class="passinpt"  id="password" name="password" placeholder="password" type="password" required>
@@ -51,11 +51,14 @@
         <br><br>
         <button type="submit">Login</button>
         <button type="regis" id="regis">Daftar</button><br><br>
-        <p class="hr-lines" style="color: #4A505C; font-family: DM Sans; font-size:16px;">atau</p>
+        <p class="hr-lines">atau</p>
         
         
         <button type="regis">Masuk Dengan Google</button>
-        <button type="masuk"style="font-family: DM Sans;"> <img style="vertical-align:middle;" src="img/logos_google_icon.png" alt="Logogoogle" class="logogoogle"> <span> Masuk Dengan Google</span></button>
+        <button class="btn-masuk" type="masuk"> 
+            <img class="logogoogle" src="img/logos_google_icon.png" alt="Logogoogle" > 
+            <span> Masuk Dengan Google</span>
+        </button>
 
     </form>
 </div>
